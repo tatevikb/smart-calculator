@@ -5,6 +5,9 @@ public class SmartCalculatorBasic {
     private Scanner scan = new Scanner(System.in);
     private String input = "";
 
+    /**
+     * Reads the numbers in a loop and prints the sum
+     */
     private void calculate()
     {
         Scanner sc = new Scanner(input);
@@ -20,6 +23,9 @@ public class SmartCalculatorBasic {
         }
     }
 
+    /**
+     * Ignores the empty lines and calculates the integers or exits.
+     */
     private void run()
     {
         while(!input.equals("/exit")) {
